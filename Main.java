@@ -4,7 +4,7 @@ public class Main{
     public static void main(String[] args)
     {
         System.out.print("\nWelcome to Hotel reservation Process !\nThe avail cities are....   \n");
-        int[] room_block = {1};
+        int[] room_block = {1,2,3,4,5};
         room_selection o2 = new room_selection(room_block);
 
         boolean Check = false;
